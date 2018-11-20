@@ -3,7 +3,8 @@ package com.example;
 /**
  * This is a class.
  */
-public class Greeter {
+@SuppressWarnings("JavaDoc")
+class Greeter {
 
   /**
    * This is a constructor.
