@@ -29,11 +29,11 @@
     </site>
     <snapshotRepository>
       <id>nexus</id>
-      <url>http://localhost:8081/repository/Sample-maven-snapshot/</url>
+      <url>http://localhost:8081/#browse/browse:Sample-maven-snapshot</url>
     </snapshotRepository>
     <repository>
       <id>nexus</id>
-      <url>http://localhost:8081/repository/sample-maven-release/</url>
+      <url>http://localhost:8081/#browse/browse:sample-maven-release</url>
     </repository>
   </distributionManagement>
 
