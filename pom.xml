@@ -48,6 +48,7 @@
       </plugin>
 
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
@@ -215,10 +216,10 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
+    <connection>scm:git:git@github.com:sagary2j/maven-project.git</connection>
+    <developerConnection>scm:git:git@github.com:sagary2j/maven-project.git</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
+    <url>https://github.com/sagary2j/maven-project</url>
   </scm>
 
   <prerequisites>
